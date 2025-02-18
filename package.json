@@ -1,0 +1,27 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/AdigaAkhil/Demo#readme",
+  "bugs": {
+    "url": "https://github.com/AdigaAkhil/Demo/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdigaAkhil/Demo.git"
+  },
+  "license": "ISC",
+  "author": "Akhil",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
